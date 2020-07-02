@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌥️D-Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6072711dbd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="weather">
+      <form id="search-box">
+        <input
+          type="City"
+          placeholder="Type in your City...."
+          id="search-text-input"
+        />
+        <input type="submit" value="search" id="search-button" />
+        <a href="javascript:void(0)" id="current-location">
+          <i class="fas fa-map-marker-alt"></i>
+        </a>
+      </form>
+      <h1 id="#city"></h1>
+      <h2 id="temp"></h2>
+      <div class="notification">
+        <ul id="advice">
+          Hello!!
+          <br />
+          A good time to hydrate...
+        </ul>
+      </div>
+
+      <h3></h3>
+      <ul class="measurement">
+        <li>Humidity:<span id="hum"></span>%</li>
+        <li>Wind: <span id="wind"></span> km/h</li>
+      </ul>
+      <hr />
+      <div class="container">
+        <div class="row row-cols-6">
+          <div class="col">
+            Sunday
+          </div>
+          <div class="col">
+            9°C
+          </div>
+          <div class="col">
+            🌧️
+          </div>
+          <div class="col-6">
+            Stay in bed, read a book and get cozy...
+          </div>
+        </div>
+        <div class="row row-cols-6">
+          <div class="col">
+            Monday
+          </div>
+          <div class="col">
+            11°C
+          </div>
+          <div class="col">
+            🌧️
+          </div>
+          <div class="col-6">
+            Get yourself a cup of coffee and take an umbrella....
+          </div>
+        </div>
+        <div class="row row-cols-6">
+          <div class="col">
+            Tuesday
+          </div>
+          <div class="col">
+            14°C
+          </div>
+          <div class="col">
+            🌧️
+          </div>
+          <div class="col-6">
+            A smile, positive mindset and an umbrella will do....
+          </div>
+        </div>
+        <div class="row row-cols-6">
+          <div class="col">
+            Wednesday
+          </div>
+          <div class="col">
+            16°C
+          </div>
+          <div class="col">
+            🌦️
+          </div>
+          <div class="col-6">
+            Halfway through the week, stay hydrated...
+          </div>
+        </div>
+        <div class="row row-cols-6">
+          <div class="col">
+            Thursday
+          </div>
+          <div class="col">
+            21°C
+          </div>
+          <div class="col">
+            🌤️
+          </div>
+          <div class="col-6">
+            Sunscreen and hydration...
+          </div>
+        </div>
+        <div class="row row-cols-6">
+          <div class="col">
+            Friday
+          </div>
+          <div class="col">
+            22°C
+          </div>
+          <div class="col">
+            🌤️
+          </div>
+          <div class="col-6">
+            Thank God it's Friday but, hydrate...
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <a
+          name="checkers"
+          class="btn btn-primary"
+          href="https://weather.com/en-CA/weather/today/l/CAON4756:1:CA"
+          role="button"
+          target="_blank"
+          >Weather Checker</a
+        >
+      </div>
+    </div>
+    <p>
+      Coded by Nimi Dada 👩‍💻
+    </p>
+  </body>
+  <script src="src/index.js"></script>
+</html>

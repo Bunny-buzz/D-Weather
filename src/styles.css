@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+.weather {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  border-radius: 2%;
+  margin: 0px 30px 0px 30px;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  color: #f4f6ff;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+form {
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+h1,
+h2 {
+  font-family: "Architects Daughter", cursive;
+}
+div {
+  font-family: "Architects Daughter", cursive;
+}
+ul {
+  padding: 0;
+  border-radius: 50%;
+}
+.container {
+  margin: 5px 10px;
+  padding: 5px 25px 5px 0px;
+  line-height: 20px;
+  font-size: 10px;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  color: #f4f6ff;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.notification {
+  font-family: "Architects Daughter", cursive;
+}
+.button {
+  font-size: 10px;
+}
+p {
+  font-size: 15px;
+  padding: 20px 0px 20px 0px;
+  font-family: "Inconsolata", monospace;
+}
