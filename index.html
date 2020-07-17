@@ -33,12 +33,9 @@
       </form>
       <h1 id="#city"></h1>
       <h2 id="temp"></h2>
-      <div class="notification">
-        <ul id="advice">
-          Hello!!
-          <br />
-          A good time to hydrate...
-        </ul>
+      <div class="clearfix weather-temperature">
+        <img src="" alt="Clear" id="icon" class="temperature-icon" />
+        <div class="float-left"></div>
       </div>
       <h3></h3>
       <ul class="measurement">
@@ -46,92 +43,7 @@
         <li>Wind: <span id="wind"></span> km/h</li>
       </ul>
       <hr />
-      <div class="container">
-        <div class="row row-cols-6">
-          <div class="col">
-            Sunday
-          </div>
-          <div class="col">
-            9°C
-          </div>
-          <div class="col">
-            🌧️
-          </div>
-          <div class="col-6">
-            Stay in bed, read a book and get cozy...
-          </div>
-        </div>
-        <div class="row row-cols-6">
-          <div class="col">
-            Monday
-          </div>
-          <div class="col">
-            11°C
-          </div>
-          <div class="col">
-            🌧️
-          </div>
-          <div class="col-6">
-            Get yourself a cup of coffee and take an umbrella....
-          </div>
-        </div>
-        <div class="row row-cols-6">
-          <div class="col">
-            Tuesday
-          </div>
-          <div class="col">
-            14°C
-          </div>
-          <div class="col">
-            🌧️
-          </div>
-          <div class="col-6">
-            A smile, positive mindset and an umbrella will do....
-          </div>
-        </div>
-        <div class="row row-cols-6">
-          <div class="col">
-            Wednesday
-          </div>
-          <div class="col">
-            16°C
-          </div>
-          <div class="col">
-            🌦️
-          </div>
-          <div class="col-6">
-            Halfway through the week, stay hydrated...
-          </div>
-        </div>
-        <div class="row row-cols-6">
-          <div class="col">
-            Thursday
-          </div>
-          <div class="col">
-            21°C
-          </div>
-          <div class="col">
-            🌤️
-          </div>
-          <div class="col-6">
-            Sunscreen and hydration...
-          </div>
-        </div>
-        <div class="row row-cols-6">
-          <div class="col">
-            Friday
-          </div>
-          <div class="col">
-            22°C
-          </div>
-          <div class="col">
-            🌤️
-          </div>
-          <div class="col-6">
-            Thank God it's Friday but, hydrate...
-          </div>
-        </div>
-      </div>
+      <div class="row container" id="forecast"></div>
       <div class="button">
         <a
           name="checkers"
@@ -144,7 +56,10 @@
       </div>
     </div>
     <p>
-      Coded by Nimi Dada 👩‍💻
+      <small>
+        <a href="#" target="_blank">Open-source code</a>
+        by Nimi Dada
+      </small>
     </p>
   </body>
   <script src="src/index.js"></script>
